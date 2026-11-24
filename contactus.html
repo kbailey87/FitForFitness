@@ -2,45 +2,70 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body class="container">
-    <h1 style="text-align: center;">Interested? LET US KNOW!</h1>
-    <nav>
-        <ul class="navflex">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contactus.html">Contact Us</a></li>
+  <h1 style="text-align: center;">Interested? LET US KNOW!</h1>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/dumbbell.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        Fit For Fitness
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Schedule</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contactus.html">Contact Us</a>
+          </li>
 
         </ul>
-    </nav>
+      </div>
+    </div>
+  </nav>
 
-    <main>
-        <form class="border">
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Name</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="Name">
-                <div id="emailHelp" class="form-text"></div>
-            </div>
-            <div class="p-3">
-                <label for="exampleInputPassword1" class="form-label">Email address</label>
-                <input type="Email" class="form-control" id="exampleInputPassword1">
+  <main>
+    <form class="border">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Name</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="Name">
+        <div id="emailHelp" class="form-text"></div>
+      </div>
+      <div class="p-3">
+        <label for="exampleInputPassword1" class="form-label">Email address</label>
+        <input type="Email" class="form-control" id="exampleInputPassword1">
 
 
-                <div class="input-group p-3">
-                    <p class="container">&darr;Please include any questions you may have HERE. &darr;</p>
-                    <span class="input-group-text">Message</span>
-                    <textarea class="form-control" aria-label="With textarea"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-        </form>
-    </main>
+        <div class="input-group p-3">
+          <p class="container">&darr;Please include any questions you may have HERE. &darr;</p>
+          <span class="input-group-text">Message</span>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+  </main>
 </body>
 
 </html>
